@@ -53,3 +53,12 @@ body { font-size: 13px; }
 	html, body { font-size: 13px; }
 	.compliance-table td:nth-child(2), .compliance-table th:nth-child(2) { width: 100px; }
 }
+
+/* Scroll wrapper for tall tables on mobile */
+.table-scroll {
+	max-height: 260px;
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
+	margin: 8px 0 14px;
+	padding-right: 6px;
+}
